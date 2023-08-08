@@ -1,0 +1,222 @@
+{
+  "KEYFRAMES": {
+    "camera": {
+      "groups": []
+    },
+    "layers": {
+      "BR_Municipios_2022_9bee0d2a_df07_4ec9_b888_ccc4e1fbd506": {
+        "enabled": true,
+        "groups": []
+      },
+      "Estacoes_Fluviometricas_e_Pluviometricas_da_Rede_abb8e09b_bf24_4d4f_a504_ee27a23c857a": {
+        "enabled": true,
+        "groups": []
+      },
+      "Ferrovias_2c3fac3b_d0df_4d83_a8fb_2ed3be06a99e": {
+        "enabled": true,
+        "groups": []
+      },
+      "MDE_Copernicus_30m_UTM_64671562_aae4_4671_97f1_921a6d8d5a1f": {
+        "enabled": true,
+        "groups": []
+      },
+      "MDE_Sao_Paulo_052740d8_a201_4267_a61e_0191b1de9025": {
+        "enabled": true,
+        "groups": []
+      },
+      "MDE_Sao_Paulo_1883ad5e_dfed_4393_8922_ee3557a9b6ba": {
+        "enabled": true,
+        "groups": []
+      },
+      "Sao_Paulo_UTM_2bed1e68_8bc6_49a1_a426_90834dc1359a": {
+        "enabled": true,
+        "groups": []
+      },
+      "Sao_Paulo_UTM_a7554d3e_cf9c_4208_ad4b_5e40ca453f74": {
+        "enabled": true,
+        "groups": []
+      },
+      "World_UTM_Grid_20da3a45_9b0c_4089_9fb8_14c6dfa6c6d9": {
+        "enabled": true,
+        "groups": []
+      },
+      "br_municipios_2022_217b8874_c988_4663_8566_07f88cb8b26e": {
+        "enabled": true,
+        "groups": []
+      },
+      "fp:a5af714a": {
+        "enabled": true,
+        "groups": []
+      },
+      "sp_municipios__br_municipios_2022_962ef9bd_8051_4e7c_ba91_d92b0e8eda45": {
+        "enabled": true,
+        "groups": []
+      }
+    },
+    "repeat": false
+  },
+  "LAYERS": [
+    {
+      "geomType": 3,
+      "layerId": "Sao_Paulo_UTM_a7554d3e_cf9c_4208_ad4b_5e40ca453f74",
+      "name": "São Paulo",
+      "properties": {},
+      "visible": false
+    },
+    {
+      "geomType": 0,
+      "layerId": "MDE_Sao_Paulo_1883ad5e_dfed_4393_8922_ee3557a9b6ba",
+      "name": "Altitude",
+      "properties": {
+        "checkBox_Clickable": true,
+        "checkBox_Clip": false,
+        "checkBox_Frame": false,
+        "checkBox_Sides": false,
+        "checkBox_Tiles": false,
+        "checkBox_Visible": true,
+        "checkBox_Wireframe": false,
+        "colorButton_Edge": [
+          0,
+          0,
+          0,
+          255
+        ],
+        "colorButton_Side": [
+          204,
+          187,
+          170,
+          255
+        ],
+        "colorButton_Wireframe": [
+          0,
+          0,
+          0,
+          255
+        ],
+        "comboBox_ClipLayer": "Sao_Paulo_UTM_2bed1e68_8bc6_49a1_a426_90834dc1359a",
+        "horizontalSlider_DEMSize": 2,
+        "lineEdit_Bottom": "0",
+        "lineEdit_Name": "",
+        "materials": [
+          {
+            "id": "2ce936fd",
+            "name": "map (canvas)",
+            "properties": {},
+            "type": 0
+          }
+        ],
+        "mtlId": "2ce936fd",
+        "spinBox_Roughening": 1,
+        "spinBox_Size": 3
+      },
+      "visible": true
+    },
+    {
+      "geomType": 0,
+      "layerId": "MDE_Sao_Paulo_052740d8_a201_4267_a61e_0191b1de9025",
+      "name": "Sombreado",
+      "properties": {},
+      "visible": false
+    },
+    {
+      "geomType": 3,
+      "layerId": "Sao_Paulo_UTM_2bed1e68_8bc6_49a1_a426_90834dc1359a",
+      "name": "São Paulo - Sombra Projetada",
+      "properties": {},
+      "visible": false
+    },
+    {
+      "geomType": 0,
+      "layerId": "MDE_Copernicus_30m_UTM_64671562_aae4_4671_97f1_921a6d8d5a1f",
+      "name": "MDE_Copernicus_30m_UTM",
+      "properties": {},
+      "visible": false
+    },
+    {
+      "geomType": 1,
+      "layerId": "Estacoes_Fluviometricas_e_Pluviometricas_da_Rede_abb8e09b_bf24_4d4f_a504_ee27a23c857a",
+      "name": "Estacoes_Fluviometricas_e_Pluviometricas_da_Rede",
+      "properties": {},
+      "visible": false
+    },
+    {
+      "geomType": 2,
+      "layerId": "Ferrovias_2c3fac3b_d0df_4d83_a8fb_2ed3be06a99e",
+      "name": "Ferrovias",
+      "properties": {},
+      "visible": false
+    },
+    {
+      "geomType": 3,
+      "layerId": "br_municipios_2022_217b8874_c988_4663_8566_07f88cb8b26e",
+      "name": "Divisão Municipal",
+      "properties": {},
+      "visible": false
+    },
+    {
+      "geomType": 3,
+      "layerId": "BR_Municipios_2022_9bee0d2a_df07_4ec9_b888_ccc4e1fbd506",
+      "name": "BR_Municipios_2022",
+      "properties": {},
+      "visible": false
+    },
+    {
+      "geomType": 3,
+      "layerId": "sp_municipios__br_municipios_2022_962ef9bd_8051_4e7c_ba91_d92b0e8eda45",
+      "name": "Sao_Paulo — sp_municipios__br_municipios_2022",
+      "properties": {},
+      "visible": false
+    },
+    {
+      "geomType": 3,
+      "layerId": "World_UTM_Grid_20da3a45_9b0c_4089_9fb8_14c6dfa6c6d9",
+      "name": "World_UTM_Grid",
+      "properties": {},
+      "visible": false
+    },
+    {
+      "geomType": 0,
+      "layerId": "fp:a5af714a",
+      "name": "Flat Plane",
+      "properties": {},
+      "visible": false
+    }
+  ],
+  "SCENE": {
+    "checkBox_FixAspectRatio": true,
+    "checkBox_Outline": false,
+    "colorButton_Color": [
+      255,
+      255,
+      255,
+      255
+    ],
+    "colorButton_Fog": [
+      255,
+      255,
+      255,
+      255
+    ],
+    "comboBox_MaterialType": 0,
+    "comboBox_xyShift": true,
+    "groupBox_Fog": false,
+    "lineEdit_CenterX": "337019.41540160467",
+    "lineEdit_CenterY": "7379938.037347158",
+    "lineEdit_Height": "138817.33759842522",
+    "lineEdit_Rotation": "0",
+    "lineEdit_Width": "138817.33759842522",
+    "lineEdit_zFactor": "2",
+    "radioButton_Color": true,
+    "slider_Fog": 41
+  },
+  "Version": 20701,
+  "WIDGETS": {
+    "Navi": {
+      "enabled": false
+    },
+    "NorthArrow": {
+      "color": "0x666666",
+      "visible": true
+    }
+  }
+}
